@@ -1,5 +1,6 @@
 <?php
 
+echo __DIR__ ;
 print basename($_SERVER['PHP_SELF'], ".php");
 
  include 'load.php'; ?>
